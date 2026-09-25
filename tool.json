@@ -1,0 +1,319 @@
+{
+  "tool": {
+    "id": "escala-de-edimburgo-epds",
+    "title": "Escala de Depressão Pós-Parto de Edimburgo (EPDS)",
+    "short": "Rastreamento de depressão na gestação e no pós-parto",
+    "spec": [
+      "ginecologia-e-obstetricia",
+      "psiquiatria",
+      "medicina-de-familia-e-comunidade"
+    ],
+    "tier": 1,
+    "desc": "Aplique a Escala de Depressão Pós-Parto de Edimburgo (EPDS, 10 itens) com o ponto de corte validado no Brasil e alerta para o item 10 (autoagressão).",
+    "lead": "Rastreia sintomas depressivos nos últimos 7 dias em gestantes e puérperas; não faz diagnóstico, mas indica quem precisa de avaliação clínica.",
+    "fields": [
+      [
+        "q1",
+        "1. Eu tenho sido capaz de rir e achar graça das coisas",
+        "sel",
+        {
+          "opts": {
+            "0": "Como eu sempre fiz",
+            "1": "Não tanto quanto antes",
+            "2": "Sem dúvida, menos que antes",
+            "3": "De jeito nenhum"
+          }
+        }
+      ],
+      [
+        "q2",
+        "2. Eu tenho pensado no futuro com alegria",
+        "sel",
+        {
+          "opts": {
+            "0": "Sim, como de costume",
+            "1": "Um pouco menos que de costume",
+            "2": "Muito menos que de costume",
+            "3": "Praticamente não"
+          }
+        }
+      ],
+      [
+        "q3",
+        "3. Eu tenho me culpado sem razão quando as coisas dão errado",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, nenhuma vez",
+            "1": "Não muitas vezes",
+            "2": "Sim, algumas vezes",
+            "3": "Sim, na maioria das vezes"
+          }
+        }
+      ],
+      [
+        "q4",
+        "4. Eu tenho ficado ansiosa ou preocupada sem uma boa razão",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, de maneira alguma",
+            "1": "Pouquíssimas vezes",
+            "2": "Sim, algumas vezes",
+            "3": "Sim, muitas vezes"
+          }
+        }
+      ],
+      [
+        "q5",
+        "5. Eu tenho me sentido assustada ou em pânico sem um bom motivo",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, nenhuma vez",
+            "1": "Não muitas vezes",
+            "2": "Sim, algumas vezes",
+            "3": "Sim, muitas vezes"
+          }
+        }
+      ],
+      [
+        "q6",
+        "6. Eu tenho me sentido esmagada pelas tarefas e acontecimentos do meu dia a dia",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, eu consigo lidar com eles tão bem quanto antes",
+            "1": "Não, na maioria das vezes consigo lidar bem com eles",
+            "2": "Sim, algumas vezes não consigo lidar bem como antes",
+            "3": "Sim, na maioria das vezes não consigo lidar bem com eles"
+          }
+        }
+      ],
+      [
+        "q7",
+        "7. Eu tenho me sentido tão infeliz que tenho tido dificuldade para dormir",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, nenhuma vez",
+            "1": "Não muitas vezes",
+            "2": "Sim, algumas vezes",
+            "3": "Sim, na maioria das vezes"
+          }
+        }
+      ],
+      [
+        "q8",
+        "8. Eu tenho me sentido triste ou arrasada",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, de jeito nenhum",
+            "1": "Não muitas vezes",
+            "2": "Sim, muitas vezes",
+            "3": "Sim, na maioria das vezes"
+          }
+        }
+      ],
+      [
+        "q9",
+        "9. Eu tenho me sentido tão infeliz que tenho chorado",
+        "sel",
+        {
+          "opts": {
+            "0": "Não, nenhuma vez",
+            "1": "De vez em quando",
+            "2": "Sim, muitas vezes",
+            "3": "Sim, quase todo o tempo"
+          }
+        }
+      ],
+      [
+        "q10",
+        "10. A ideia de fazer mal a mim mesma passou por minha cabeça",
+        "sel",
+        {
+          "opts": {
+            "0": "Nenhuma vez",
+            "1": "Pouquíssimas vezes, ultimamente",
+            "2": "Algumas vezes nos últimos dias",
+            "3": "Sim, muitas vezes, ultimamente"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>10 itens sobre os <strong>últimos 7 dias</strong>, cada um de 0 a 3 pontos. Os itens 1, 2 e 4 pontuam em ordem crescente de gravidade (0 a 3); os itens 3 e 5 a 10 são invertidos (a primeira opção vale 3). Total de 0 a 30.</p><p>Ponto de corte de rastreamento no Brasil: <strong>10 pontos</strong> (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. <strong>Qualquer pontuação no item 10</strong> exige avaliação imediata do risco de suicídio, independentemente do total.</p>",
+    "table": [
+      [
+        "Pontos",
+        "Interpretação"
+      ],
+      [
+        "0 a 9",
+        "Rastreamento negativo: repetir se houver sintomas"
+      ],
+      [
+        "10 a 12",
+        "Rastreamento positivo: avaliação clínica para depressão"
+      ],
+      [
+        "≥ 13",
+        "Provável depressão: avaliação diagnóstica e tratamento"
+      ],
+      [
+        "Item 10 ≥ 1",
+        "Avaliação imediata do risco de suicídio"
+      ]
+    ],
+    "tips": [
+      "A própria paciente deve responder, de preferência sozinha, pensando nos últimos 7 dias. Não é instrumento diagnóstico: o diagnóstico é clínico (DSM-5 ou CID).",
+      "Aplique na gestação e no pós-parto (a partir de 2 semanas, quando a tristeza puerperal, o <em>baby blues</em>, costuma ter passado); o período de maior risco vai até cerca de 6 meses.",
+      "Item 10 positivo: pergunte diretamente sobre ideação, plano e meios, não deixe a paciente sozinha se o risco for alto e acione a rede de saúde mental. CVV: 188 (24 horas, gratuito).",
+      "A EPDS pode ser reproduzida sem custo desde que citada a fonte (Cox, Holden e Sagovsky, 1987) e sem alterar o texto dos itens.",
+      "Os itens 3, 4 e 5 formam uma subescala de ansiedade: pontuação alta nesses itens com total baixo sugere quadro ansioso."
+    ],
+    "sources": [
+      [
+        "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry, 1987.",
+        "https://doi.org/10.1192/bjp.150.6.782"
+      ],
+      [
+        "Santos IS et al. Validation of the Edinburgh Postnatal Depression Scale (EPDS) in a sample of mothers from the 2004 Pelotas Birth Cohort Study. Cad Saude Publica, 2007.",
+        "https://doi.org/10.1590/S0102-311X2007001100005"
+      ]
+    ],
+    "cases": [
+      [
+        "Todas as respostas de menor pontuação: 0 pontos",
+        {
+          "q1": "0",
+          "q2": "0",
+          "q3": "0",
+          "q4": "0",
+          "q5": "0",
+          "q6": "0",
+          "q7": "0",
+          "q8": "0",
+          "q9": "0",
+          "q10": "0"
+        },
+        {
+          "score": 0,
+          "level": "low"
+        }
+      ],
+      [
+        "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        {
+          "q1": "1",
+          "q2": "1",
+          "q3": "1",
+          "q4": "1",
+          "q5": "1",
+          "q6": "1",
+          "q7": "1",
+          "q8": "1",
+          "q9": "1",
+          "q10": "0"
+        },
+        {
+          "score": 9,
+          "level": "low"
+        }
+      ],
+      [
+        "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        {
+          "q1": "1",
+          "q2": "1",
+          "q3": "2",
+          "q4": "1",
+          "q5": "1",
+          "q6": "1",
+          "q7": "1",
+          "q8": "1",
+          "q9": "1",
+          "q10": "0"
+        },
+        {
+          "score": 10,
+          "level": "mid",
+          "verdict": "positivo"
+        }
+      ],
+      [
+        "Soma de 16 pontos sem item 10: provável depressão",
+        {
+          "q1": "2",
+          "q2": "2",
+          "q3": "2",
+          "q4": "2",
+          "q5": "2",
+          "q6": "2",
+          "q7": "2",
+          "q8": "1",
+          "q9": "1",
+          "q10": "0"
+        },
+        {
+          "score": 16,
+          "level": "high",
+          "verdict": "Provável depressão"
+        }
+      ],
+      [
+        "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        {
+          "q1": "0",
+          "q2": "0",
+          "q3": "0",
+          "q4": "0",
+          "q5": "0",
+          "q6": "0",
+          "q7": "0",
+          "q8": "0",
+          "q9": "0",
+          "q10": "1"
+        },
+        {
+          "score": 1,
+          "level": "high",
+          "verdict": "item 10"
+        }
+      ]
+    ],
+    "batch": "mulher-crianca",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "mulher-crianca",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/mulher-crianca.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 5,
+      "passed": 5,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/mulher-crianca.php",
+    "sha256": "c37d3fefb430d6ec19144161e40e9a08247f3a10406e2873c8d6a4be8649917c",
+    "bytes": 81915
+  },
+  "clinicalValidation": "not-performed"
+}
