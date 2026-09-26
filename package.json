@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-escala-de-edimburgo-epds",
   "version": "0.1.0",
-  "description": "Escala de Depressão Pós-Parto de Edimburgo (EPDS) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Escala de Depressão Pós-Parto de Edimburgo (EPDS) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
