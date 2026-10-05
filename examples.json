@@ -1,6 +1,21 @@
 [
   {
-    "label": "Todas as respostas de menor pontuação: 0 pontos",
+    "id": "escala-de-edimburgo-epds",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Todas as respostas de menor pontuação: 0 pontos",
+    "originalInput": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0",
+      "q10": "0"
+    },
     "input": {
       "q1": "0",
       "q2": "0",
@@ -17,22 +32,43 @@
       "score": 0,
       "level": "low"
     },
-    "originalInput": {
-      "q1": "0",
-      "q2": "0",
-      "q3": "0",
-      "q4": "0",
-      "q5": "0",
-      "q6": "0",
-      "q7": "0",
-      "q8": "0",
-      "q9": "0",
-      "q10": "0"
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 30"
+      ],
+      "label": "EPDS",
+      "raw": {
+        "score": 0,
+        "item10": 0
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+    "id": "escala-de-edimburgo-epds",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+    "originalInput": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1",
+      "q7": "1",
+      "q8": "1",
+      "q9": "1",
+      "q10": "0"
+    },
     "input": {
       "q1": "1",
       "q2": "1",
@@ -49,10 +85,35 @@
       "score": 9,
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "9",
+        "de 30"
+      ],
+      "label": "EPDS",
+      "raw": {
+        "score": 9,
+        "item10": 0
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escala-de-edimburgo-epds",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
     "originalInput": {
       "q1": "1",
       "q2": "1",
-      "q3": "1",
+      "q3": "2",
       "q4": "1",
       "q5": "1",
       "q6": "1",
@@ -61,10 +122,6 @@
       "q9": "1",
       "q10": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
     "input": {
       "q1": "1",
       "q2": "1",
@@ -82,22 +139,43 @@
       "level": "mid",
       "verdict": "positivo"
     },
+    "recordedResult": {
+      "main": [
+        "10",
+        "de 30"
+      ],
+      "label": "EPDS",
+      "raw": {
+        "score": 10,
+        "item10": 0
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "escala-de-edimburgo-epds",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Soma de 16 pontos sem item 10: provável depressão",
     "originalInput": {
-      "q1": "1",
-      "q2": "1",
+      "q1": "2",
+      "q2": "2",
       "q3": "2",
-      "q4": "1",
-      "q5": "1",
-      "q6": "1",
-      "q7": "1",
+      "q4": "2",
+      "q5": "2",
+      "q6": "2",
+      "q7": "2",
       "q8": "1",
       "q9": "1",
       "q10": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Soma de 16 pontos sem item 10: provável depressão",
     "input": {
       "q1": "2",
       "q2": "2",
@@ -115,22 +193,43 @@
       "level": "high",
       "verdict": "Provável depressão"
     },
-    "originalInput": {
-      "q1": "2",
-      "q2": "2",
-      "q3": "2",
-      "q4": "2",
-      "q5": "2",
-      "q6": "2",
-      "q7": "2",
-      "q8": "1",
-      "q9": "1",
-      "q10": "0"
+    "recordedResult": {
+      "main": [
+        "16",
+        "de 30"
+      ],
+      "label": "EPDS",
+      "raw": {
+        "score": 16,
+        "item10": 0
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+    "id": "escala-de-edimburgo-epds",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+    "originalInput": {
+      "q1": "0",
+      "q2": "0",
+      "q3": "0",
+      "q4": "0",
+      "q5": "0",
+      "q6": "0",
+      "q7": "0",
+      "q8": "0",
+      "q9": "0",
+      "q10": "1"
+    },
     "input": {
       "q1": "0",
       "q2": "0",
@@ -148,18 +247,24 @@
       "level": "high",
       "verdict": "item 10"
     },
-    "originalInput": {
-      "q1": "0",
-      "q2": "0",
-      "q3": "0",
-      "q4": "0",
-      "q5": "0",
-      "q6": "0",
-      "q7": "0",
-      "q8": "0",
-      "q9": "0",
-      "q10": "1"
+    "recordedResult": {
+      "main": [
+        "1",
+        "de 30"
+      ],
+      "label": "EPDS",
+      "raw": {
+        "score": 1,
+        "item10": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

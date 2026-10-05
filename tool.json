@@ -3,14 +3,14 @@
     "id": "escala-de-edimburgo-epds",
     "title": "Escala de Depressão Pós-Parto de Edimburgo (EPDS)",
     "short": "Rastreamento de depressão na gestação e no pós-parto",
+    "desc": "Aplique a Escala de Depressão Pós-Parto de Edimburgo (EPDS, 10 itens) com o ponto de corte validado no Brasil e alerta para o item 10 (autoagressão).",
+    "lead": "Rastreia sintomas depressivos nos últimos 7 dias em gestantes e puérperas; não faz diagnóstico, mas indica quem precisa de avaliação clínica.",
+    "kind": "Calculadora",
     "spec": [
       "ginecologia-e-obstetricia",
       "psiquiatria",
       "medicina-de-familia-e-comunidade"
     ],
-    "tier": 1,
-    "desc": "Aplique a Escala de Depressão Pós-Parto de Edimburgo (EPDS, 10 itens) com o ponto de corte validado no Brasil e alerta para o item 10 (autoagressão).",
-    "lead": "Rastreia sintomas depressivos nos últimos 7 dias em gestantes e puérperas; não faz diagnóstico, mas indica quem precisa de avaliação clínica.",
     "fields": [
       [
         "q1",
@@ -143,36 +143,7 @@
         }
       ]
     ],
-    "formula": "<p>10 itens sobre os <strong>últimos 7 dias</strong>, cada um de 0 a 3 pontos. Os itens 1, 2 e 4 pontuam em ordem crescente de gravidade (0 a 3); os itens 3 e 5 a 10 são invertidos (a primeira opção vale 3). Total de 0 a 30.</p><p>Ponto de corte de rastreamento no Brasil: <strong>10 pontos</strong> (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. <strong>Qualquer pontuação no item 10</strong> exige avaliação imediata do risco de suicídio, independentemente do total.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Interpretação"
-      ],
-      [
-        "0 a 9",
-        "Rastreamento negativo: repetir se houver sintomas"
-      ],
-      [
-        "10 a 12",
-        "Rastreamento positivo: avaliação clínica para depressão"
-      ],
-      [
-        "≥ 13",
-        "Provável depressão: avaliação diagnóstica e tratamento"
-      ],
-      [
-        "Item 10 ≥ 1",
-        "Avaliação imediata do risco de suicídio"
-      ]
-    ],
-    "tips": [
-      "A própria paciente deve responder, de preferência sozinha, pensando nos últimos 7 dias. Não é instrumento diagnóstico: o diagnóstico é clínico (DSM-5 ou CID).",
-      "Aplique na gestação e no pós-parto (a partir de 2 semanas, quando a tristeza puerperal, o <em>baby blues</em>, costuma ter passado); o período de maior risco vai até cerca de 6 meses.",
-      "Item 10 positivo: pergunte diretamente sobre ideação, plano e meios, não deixe a paciente sozinha se o risco for alto e acione a rede de saúde mental. CVV: 188 (24 horas, gratuito).",
-      "A EPDS pode ser reproduzida sem custo desde que citada a fonte (Cox, Holden e Sagovsky, 1987) e sem alterar o texto dos itens.",
-      "Os itens 3, 4 e 5 formam uma subescala de ansiedade: pontuação alta nesses itens com total baixo sugere quadro ansioso."
-    ],
+    "formula": "<p>10 itens sobre os <strong>últimos 7 dias</strong>, cada um de 0 a 3 pontos. Na ordem do formulário original de Cox (1987), os itens 3 e 5 a 10 têm pontuação invertida; os itens 1, 2 e 4 pontuam de 0 a 3. Nesta plataforma, todas as opções já estão ordenadas pela pontuação de 0 a 3: some os pontos das respostas selecionadas, sem inverter novamente. Total de 0 a 30.</p><p>Ponto de corte de rastreamento no Brasil: <strong>10 pontos</strong> (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. <strong>Qualquer pontuação no item 10</strong> exige avaliação imediata do risco de suicídio, independentemente do total.</p>",
     "sources": [
       [
         "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry, 1987.",
@@ -283,9 +254,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -294,17 +262,551 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T20:02:43.361Z",
+      "total": 1091,
+      "passed": 1091,
+      "sourceRowCount": 1091,
+      "uniqueApiInputCount": 1091,
+      "sourceContextCount": 1091,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "05c15fb53b0e6f07d608c284e0cabf94074e4ef9c94bfba655b9c5ced7ba9264",
+        "total": 1091,
+        "bankRowCount": 1091,
+        "uniqueApiInputCount": 1091,
+        "sourceContextCount": 1091,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/six-screening-independent-expectations-final28.json",
+            "sha256": "2cbc1f414248ca8b232eca6ddb7843779fa1b3723758d27a7f29a3dd4c947b97"
+          },
+          {
+            "file": "reports/review-20261003/six-screening-primary-source-review-final28-v2.json",
+            "sha256": "2aa00562adf4ec500ce3367132a9ef92a84d610bfd6a7d68671b2bd1dad4f9e3"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-screening-independent-source-check-final28.json",
+          "sha256": "9aabf1baacf8aa7df35309a42f2d7e06ec39d67c63fc827ec17f5c5785f1dc89"
+        },
+        "packagingRequirement": "Complete downloadable expected/obtained bank; copy the file byte-exactly into each package. New formula prose/field/source revisions compose under separate ownership."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 1091,
+        "uniqueApiInputs": 1091,
+        "duplicateRows": 0,
+        "expectedTupleSha256": "834135a2202eb65d5538fe930efdb6461e84542412d79cd77843bfc0dd718ef1"
+      },
+      "scope": "Previously selected source integer point total only: Finite deterministic1024 generated vectors plus uniform, single-item at both extremes and cyclic witnesses; not all4^10=1048576 response combinations. Actual normalized codes already severitysorted. Source response-position inversion checked separately for all40 options.",
+      "sources": [
+        {
+          "id": "escala-de-edimburgo-epds",
+          "edition": "Cox/Holden/Sagovsky1987 original Appendix scoring; portal severity-sorted option codes",
+          "primaryReads": [
+            {
+              "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/detection-of-postnatal-depression/E18BC62858DBF2640C33DCC8B572F02A",
+              "access": "Original publisher abstract/identity read; full publisher article unavailable",
+              "readScope": "10-item development,84 mothers, simple scoring; no numeric table solely from abstract"
+            },
+            {
+              "url": "https://www.scribd.com/document/514501391/cox1987",
+              "access": "Original1987 paper reprint indexed text personally read, printedp786 Appendix/scoring. Reader upload is not publisher authenticity or rights approval",
+              "readScope": "Marked reversed items3,5–10; score0..3 by increasing symptom severity; sum10 items; original7day instructions"
+            },
+            {
+              "url": "https://eprints.whiterose.ac.uk/134342/1/3012281.pdf",
+              "access": "Primary2018 BaBY PaNDA report directly downloaded; Appendix5 PDFp178/printed145 reprints EPDS with explicit permission to that study",
+              "artifact": "six-screening-primary-final28/epds-baby-panda2018.pdf",
+              "sha256": "b5ef55f8d497bc8b9dbd46836971a09494d19ab1c9faf69858d4536df0b2f075",
+              "readScope": "10 item response rows/order and seven-day instructions; not entire245-page report"
+            }
+          ],
+          "constants": {
+            "items": 10,
+            "sourceOrderNormal": [
+              1,
+              2,
+              4
+            ],
+            "sourceOrderReversed": [
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "minimum": 0,
+            "maximum": 30
+          },
+          "limitations": [
+            "Selected point arithmetic only; clinical thresholds, diagnosis, referral, treatment, language validation and instrument reproduction rights are not certified.",
+            "Question wording and every population/edition are not established equivalent by a sum-of-codes test. Source metadata access is distinguished from actual targeted table/scoring reads.",
+            "App option codes already sorted0→3 severity for all10 items; original response-position inversion must not be applied a second time. Currentformula first-option=3 statement is about original printed order but lacks explicit distinction from reordered portal UI; held prose issue.",
+            "Original13 and BrazilPelotas2007≥10 cutoffs/suicide response are outside arithmetic proof. Original appendix conditionally permits attributed reproduction; translation/commercial/instrument-rights review still not performed."
+          ]
+        }
+      ],
+      "evidencePath": "reports/review-20261003/six-screening-independent-source-check-final28.json",
+      "evidenceSha256": "9aabf1baacf8aa7df35309a42f2d7e06ec39d67c63fc827ec17f5c5785f1dc89",
+      "independentPeer": {
+        "status": "passed-scoped-numeric",
+        "evidence": {
+          "file": "reports/review-20261003/six-screening-independent-peer-verify-final28.json",
+          "sha256": "f44cf7582617795c9cbb3daf2883b2846546a4249579e9c63b9d0c9d5e3b339c"
+        },
+        "scope": "Independent own frozen expectations plus reauthored original45368 vectors; three-source Node and actual isolatedChromium totals only."
+      },
+      "freshAdapterExecutions": 3273,
+      "freshVmExecutions": 3273,
+      "actualBrowserEvidenceScope": "Original source28 actual isolated Chromium 1091×3 unchanged adapter captures retained in the bank; not a served page/UI proof.",
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+          "app": "website",
+          "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+          "app": "dashboard",
+          "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+          "app": "command-center",
+          "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+        }
+      ],
+      "qualifications": [
+        "Selected point arithmetic only; clinical thresholds, diagnosis, referral, treatment, language validation and instrument reproduction rights are not certified.",
+        "Question wording and every population/edition are not established equivalent by a sum-of-codes test. Source metadata access is distinguished from actual targeted table/scoring reads.",
+        "App option codes already sorted0→3 severity for all10 items; original response-position inversion must not be applied a second time. Currentformula first-option=3 statement is about original printed order but lacks explicit distinction from reordered portal UI; held prose issue.",
+        "Original13 and BrazilPelotas2007≥10 cutoffs/suicide response are outside arithmetic proof. Original appendix conditionally permits attributed reproduction; translation/commercial/instrument-rights review still not performed.",
+        "Only caller-selected raw.score integer total is projected into this bank. Original main display, source response-position witnesses and item10 numeric component remain in the untouched donor report; no clinical level, note/verdict, self-harm alarm, diagnosis, treatment or instrument-rubric equivalence is approved.",
+        "All cases and all projected expected/obtained totals are present. Numerical observation arrays are indexed by the exact original case index; mirror/runtime executions do not multiply case or unique-input counts.",
+        "Source access is limited to the precisely recorded original/direct/indexed sections. Existence of an edition or source hyperlink does not mean the entire original paper or questionnaire was read.",
+        "EPDS ordering prose is independently owned by the nine-target clarification candidate; future catalog/resolver merges must preserve those fields rather than replace whole snapshots.",
+        "Fresh compiled/source/package/browser bindings are still required. Clinical validation, official/professional language review, source rights and full-method conformance remain not-performed."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "EPDS/Cox 1987:10 itens,7 dias; cutoff PTPelotas 2007≥10 vsoriginal≥13; item 10 alarme",
+    "implementationVersion": "escala-de-edimburgo-epds@native-2026-10-03+6ea58aa125f5",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/3651732/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "10 itens sobre os últimos 7 dias , cada um de 0 a 3 pontos. Na ordem do formulário original de Cox (1987), os itens 3 e 5 a 10 têm pontuação invertida; os itens 1, 2 e 4 pontuam de 0 a 3. Nesta plataforma, todas as opções já estão ordenadas pela pontuação de 0 a 3: some os pontos das respostas selecionadas, sem inverter novamente. Total de 0 a 30. Ponto de corte de rastreamento no Brasil: 10 pontos (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. Qualquer pontuação no item 10 exige avaliação imediata do risco de suicídio, independentemente do total.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "1. Eu tenho sido capaz de rir e achar graça das coisas",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Como eu sempre fiz",
+              "1": "Não tanto quanto antes",
+              "2": "Sem dúvida, menos que antes",
+              "3": "De jeito nenhum"
+            }
+          },
+          {
+            "key": "q2",
+            "label": "2. Eu tenho pensado no futuro com alegria",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Sim, como de costume",
+              "1": "Um pouco menos que de costume",
+              "2": "Muito menos que de costume",
+              "3": "Praticamente não"
+            }
+          },
+          {
+            "key": "q3",
+            "label": "3. Eu tenho me culpado sem razão quando as coisas dão errado",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, nenhuma vez",
+              "1": "Não muitas vezes",
+              "2": "Sim, algumas vezes",
+              "3": "Sim, na maioria das vezes"
+            }
+          },
+          {
+            "key": "q4",
+            "label": "4. Eu tenho ficado ansiosa ou preocupada sem uma boa razão",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, de maneira alguma",
+              "1": "Pouquíssimas vezes",
+              "2": "Sim, algumas vezes",
+              "3": "Sim, muitas vezes"
+            }
+          },
+          {
+            "key": "q5",
+            "label": "5. Eu tenho me sentido assustada ou em pânico sem um bom motivo",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, nenhuma vez",
+              "1": "Não muitas vezes",
+              "2": "Sim, algumas vezes",
+              "3": "Sim, muitas vezes"
+            }
+          },
+          {
+            "key": "q6",
+            "label": "6. Eu tenho me sentido esmagada pelas tarefas e acontecimentos do meu dia a dia",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, eu consigo lidar com eles tão bem quanto antes",
+              "1": "Não, na maioria das vezes consigo lidar bem com eles",
+              "2": "Sim, algumas vezes não consigo lidar bem como antes",
+              "3": "Sim, na maioria das vezes não consigo lidar bem com eles"
+            }
+          },
+          {
+            "key": "q7",
+            "label": "7. Eu tenho me sentido tão infeliz que tenho tido dificuldade para dormir",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, nenhuma vez",
+              "1": "Não muitas vezes",
+              "2": "Sim, algumas vezes",
+              "3": "Sim, na maioria das vezes"
+            }
+          },
+          {
+            "key": "q8",
+            "label": "8. Eu tenho me sentido triste ou arrasada",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, de jeito nenhum",
+              "1": "Não muitas vezes",
+              "2": "Sim, muitas vezes",
+              "3": "Sim, na maioria das vezes"
+            }
+          },
+          {
+            "key": "q9",
+            "label": "9. Eu tenho me sentido tão infeliz que tenho chorado",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Não, nenhuma vez",
+              "1": "De vez em quando",
+              "2": "Sim, muitas vezes",
+              "3": "Sim, quase todo o tempo"
+            }
+          },
+          {
+            "key": "q10",
+            "label": "10. A ideia de fazer mal a mim mesma passou por minha cabeça",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma vez",
+              "1": "Pouquíssimas vezes, ultimamente",
+              "2": "Algumas vezes nos últimos dias",
+              "3": "Sim, muitas vezes, ultimamente"
+            }
+          }
+        ],
+        "hash": "60d74e53090b275e59aceed1878abc0669e8393dba62da8438cb6f252ebd29cd"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Cox JL, Holden JM, Sagovsky R. Detection of postnatal depression: development of the 10-item Edinburgh Postnatal Depression Scale. Br J Psychiatry, 1987.",
+          "url": "https://doi.org/10.1192/bjp.150.6.782",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Detection of postnatal depression. Development of the 10-item Edinburgh Postnatal Depression Scale.",
+            "year": "1987",
+            "firstPublicationDate": "1987-06-01",
+            "doi": "10.1192/bjp.150.6.782",
+            "pmid": "3651732",
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "authors": "Cox JL, Holden JM, Sagovsky R."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/3651732/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "4e008a6b98867c6f1501ee44bb94c0378cd9463a7988ecb24010714c8661a532",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Santos IS et al. Validation of the Edinburgh Postnatal Depression Scale (EPDS) in a sample of mothers from the 2004 Pelotas Birth Cohort Study. Cad Saude Publica, 2007.",
+          "url": "https://doi.org/10.1590/S0102-311X2007001100005",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Validation of the Edinburgh Postnatal Depression Scale (EPDS) in a sample of mothers from the 2004 Pelotas Birth Cohort Study.",
+            "year": "2007",
+            "firstPublicationDate": "2007-11-01",
+            "doi": "10.1590/s0102-311x2007001100005",
+            "pmid": "17952250",
+            "journal": "Cadernos de saude publica",
+            "authors": "Santos IS, Matijasevich A, Tavares BF, Barros AJ, Botelho IP, Lapolli C, Magalhães PV, Barbosa AP, Barros FC."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/17952250/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "34cc7abd2fd384837ccbf0b77b3f08c4ec6c5665b6d5f04420ac5cb7ca607116",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T20:02:43.361Z",
+        "total": 1091,
+        "passed": 1091,
+        "sourceRowCount": 1091,
+        "uniqueApiInputCount": 1091,
+        "sourceContextCount": 1091,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "05c15fb53b0e6f07d608c284e0cabf94074e4ef9c94bfba655b9c5ced7ba9264",
+          "total": 1091,
+          "bankRowCount": 1091,
+          "uniqueApiInputCount": 1091,
+          "sourceContextCount": 1091,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/six-screening-independent-expectations-final28.json",
+              "sha256": "2cbc1f414248ca8b232eca6ddb7843779fa1b3723758d27a7f29a3dd4c947b97"
+            },
+            {
+              "file": "reports/review-20261003/six-screening-primary-source-review-final28-v2.json",
+              "sha256": "2aa00562adf4ec500ce3367132a9ef92a84d610bfd6a7d68671b2bd1dad4f9e3"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-screening-independent-source-check-final28.json",
+            "sha256": "9aabf1baacf8aa7df35309a42f2d7e06ec39d67c63fc827ec17f5c5785f1dc89"
+          },
+          "packagingRequirement": "Complete downloadable expected/obtained bank; copy the file byte-exactly into each package. New formula prose/field/source revisions compose under separate ownership."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 1091,
+          "uniqueApiInputs": 1091,
+          "duplicateRows": 0,
+          "expectedTupleSha256": "834135a2202eb65d5538fe930efdb6461e84542412d79cd77843bfc0dd718ef1"
+        },
+        "scope": "Previously selected source integer point total only: Finite deterministic1024 generated vectors plus uniform, single-item at both extremes and cyclic witnesses; not all4^10=1048576 response combinations. Actual normalized codes already severitysorted. Source response-position inversion checked separately for all40 options.",
+        "sources": [
+          {
+            "id": "escala-de-edimburgo-epds",
+            "edition": "Cox/Holden/Sagovsky1987 original Appendix scoring; portal severity-sorted option codes",
+            "primaryReads": [
+              {
+                "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/detection-of-postnatal-depression/E18BC62858DBF2640C33DCC8B572F02A",
+                "access": "Original publisher abstract/identity read; full publisher article unavailable",
+                "readScope": "10-item development,84 mothers, simple scoring; no numeric table solely from abstract"
+              },
+              {
+                "url": "https://www.scribd.com/document/514501391/cox1987",
+                "access": "Original1987 paper reprint indexed text personally read, printedp786 Appendix/scoring. Reader upload is not publisher authenticity or rights approval",
+                "readScope": "Marked reversed items3,5–10; score0..3 by increasing symptom severity; sum10 items; original7day instructions"
+              },
+              {
+                "url": "https://eprints.whiterose.ac.uk/134342/1/3012281.pdf",
+                "access": "Primary2018 BaBY PaNDA report directly downloaded; Appendix5 PDFp178/printed145 reprints EPDS with explicit permission to that study",
+                "artifact": "six-screening-primary-final28/epds-baby-panda2018.pdf",
+                "sha256": "b5ef55f8d497bc8b9dbd46836971a09494d19ab1c9faf69858d4536df0b2f075",
+                "readScope": "10 item response rows/order and seven-day instructions; not entire245-page report"
+              }
+            ],
+            "constants": {
+              "items": 10,
+              "sourceOrderNormal": [
+                1,
+                2,
+                4
+              ],
+              "sourceOrderReversed": [
+                3,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ],
+              "minimum": 0,
+              "maximum": 30
+            },
+            "limitations": [
+              "Selected point arithmetic only; clinical thresholds, diagnosis, referral, treatment, language validation and instrument reproduction rights are not certified.",
+              "Question wording and every population/edition are not established equivalent by a sum-of-codes test. Source metadata access is distinguished from actual targeted table/scoring reads.",
+              "App option codes already sorted0→3 severity for all10 items; original response-position inversion must not be applied a second time. Currentformula first-option=3 statement is about original printed order but lacks explicit distinction from reordered portal UI; held prose issue.",
+              "Original13 and BrazilPelotas2007≥10 cutoffs/suicide response are outside arithmetic proof. Original appendix conditionally permits attributed reproduction; translation/commercial/instrument-rights review still not performed."
+            ]
+          }
+        ],
+        "evidencePath": "reports/review-20261003/six-screening-independent-source-check-final28.json",
+        "evidenceSha256": "9aabf1baacf8aa7df35309a42f2d7e06ec39d67c63fc827ec17f5c5785f1dc89",
+        "independentPeer": {
+          "status": "passed-scoped-numeric",
+          "evidence": {
+            "file": "reports/review-20261003/six-screening-independent-peer-verify-final28.json",
+            "sha256": "f44cf7582617795c9cbb3daf2883b2846546a4249579e9c63b9d0c9d5e3b339c"
+          },
+          "scope": "Independent own frozen expectations plus reauthored original45368 vectors; three-source Node and actual isolatedChromium totals only."
+        },
+        "freshAdapterExecutions": 3273,
+        "freshVmExecutions": 3273,
+        "actualBrowserEvidenceScope": "Original source28 actual isolated Chromium 1091×3 unchanged adapter captures retained in the bank; not a served page/UI proof.",
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+            "app": "website",
+            "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+            "app": "dashboard",
+            "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+            "app": "command-center",
+            "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+          }
+        ],
+        "qualifications": [
+          "Selected point arithmetic only; clinical thresholds, diagnosis, referral, treatment, language validation and instrument reproduction rights are not certified.",
+          "Question wording and every population/edition are not established equivalent by a sum-of-codes test. Source metadata access is distinguished from actual targeted table/scoring reads.",
+          "App option codes already sorted0→3 severity for all10 items; original response-position inversion must not be applied a second time. Currentformula first-option=3 statement is about original printed order but lacks explicit distinction from reordered portal UI; held prose issue.",
+          "Original13 and BrazilPelotas2007≥10 cutoffs/suicide response are outside arithmetic proof. Original appendix conditionally permits attributed reproduction; translation/commercial/instrument-rights review still not performed.",
+          "Only caller-selected raw.score integer total is projected into this bank. Original main display, source response-position witnesses and item10 numeric component remain in the untouched donor report; no clinical level, note/verdict, self-harm alarm, diagnosis, treatment or instrument-rubric equivalence is approved.",
+          "All cases and all projected expected/obtained totals are present. Numerical observation arrays are indexed by the exact original case index; mirror/runtime executions do not multiply case or unique-input counts.",
+          "Source access is limited to the precisely recorded original/direct/indexed sections. Existence of an edition or source hyperlink does not mean the entire original paper or questionnaire was read.",
+          "EPDS ordering prose is independently owned by the nine-target clarification candidate; future catalog/resolver merges must preserve those fields rather than replace whole snapshots.",
+          "Fresh compiled/source/package/browser bindings are still required. Clinical validation, official/professional language review, source rights and full-method conformance remain not-performed."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24",
+      "inputContractHashHistory": [
+        {
+          "hash": "c95c0c6c74df6983459dfd9647094760c2b1bfb03ea8343e6a92e77fb0e75d3c",
+          "reason": "Original EPDS formula response-order presentation retained before explicit local normalized-code clarification; fields and values unchanged.",
+          "formulaSha256": "200529e316327a78f7a2710ff46eb78a7bf78ca13072c1dc65529935d7b183e0"
+        }
+      ],
+      "epdsOrderingPresentationAmendment": {
+        "at": "2026-10-04T19:56:16.543Z",
+        "scope": "Only formula first-paragraph clarification of original printed response order versus already normalized platform option codes. Nine authorial translations preserve each locale existing second paragraph byte-for-byte, including unadjudicated cutoff/suicide-alarm text. No field/options/cases/engine/layout/status mutation.",
+        "sourceOriginalPhrase": "os itens 3 e 5 a 10 são invertidos (a primeira opção vale 3)",
+        "sourceOriginalContext": "Cox1987 Appendix printedp786 original response order. App values already reordered0→3 severity; normalized point codes are summed by unchanged engine.",
+        "previousFormula": "<p>10 itens sobre os <strong>últimos 7 dias</strong>, cada um de 0 a 3 pontos. Os itens 1, 2 e 4 pontuam em ordem crescente de gravidade (0 a 3); os itens 3 e 5 a 10 são invertidos (a primeira opção vale 3). Total de 0 a 30.</p><p>Ponto de corte de rastreamento no Brasil: <strong>10 pontos</strong> (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. <strong>Qualquer pontuação no item 10</strong> exige avaliação imediata do risco de suicídio, independentemente do total.</p>",
+        "newFormula": "<p>10 itens sobre os <strong>últimos 7 dias</strong>, cada um de 0 a 3 pontos. Na ordem do formulário original de Cox (1987), os itens 3 e 5 a 10 têm pontuação invertida; os itens 1, 2 e 4 pontuam de 0 a 3. Nesta plataforma, todas as opções já estão ordenadas pela pontuação de 0 a 3: some os pontos das respostas selecionadas, sem inverter novamente. Total de 0 a 30.</p><p>Ponto de corte de rastreamento no Brasil: <strong>10 pontos</strong> (Santos 2007, coorte de Pelotas: sensibilidade 82,6%, especificidade 65,4%). Cox (1987) propôs ≥ 13 para provável depressão. <strong>Qualquer pontuação no item 10</strong> exige avaliação imediata do risco de suicídio, independentemente do total.</p>",
+        "methodVersionBefore": "EPDS/Cox 1987:10 itens,7 dias; cutoff PTPelotas 2007≥10 vsoriginal≥13; item 10 alarme",
+        "methodVersionAfter": "EPDS/Cox 1987:10 itens,7 dias; cutoff PTPelotas 2007≥10 vsoriginal≥13; item 10 alarme",
+        "sourceRead": [
+          {
+            "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/detection-of-postnatal-depression/E18BC62858DBF2640C33DCC8B572F02A",
+            "access": "Original publisher abstract/identity read; full publisher article unavailable",
+            "readScope": "10-item development,84 mothers, simple scoring; no numeric table solely from abstract"
+          },
+          {
+            "url": "https://www.scribd.com/document/514501391/cox1987",
+            "access": "Original1987 paper reprint indexed text personally read, printedp786 Appendix/scoring. Reader upload is not publisher authenticity or rights approval",
+            "readScope": "Marked reversed items3,5–10; score0..3 by increasing symptom severity; sum10 items; original7day instructions"
+          },
+          {
+            "url": "https://eprints.whiterose.ac.uk/134342/1/3012281.pdf",
+            "access": "Primary2018 BaBY PaNDA report directly downloaded; Appendix5 PDFp178/printed145 reprints EPDS with explicit permission to that study",
+            "artifact": "six-screening-primary-final28/epds-baby-panda2018.pdf",
+            "sha256": "b5ef55f8d497bc8b9dbd46836971a09494d19ab1c9faf69858d4536df0b2f075",
+            "readScope": "10 item response rows/order and seven-day instructions; not entire245-page report"
+          }
+        ],
+        "author": {
+          "file": "reports/review-20261003/epds-platform-ordering-clarification-authored-final28.cjs",
+          "sha256": "3820822256378640de5f4287c477ce7e3a67b5fa5c0c84cc806cdbc324d6bf4f"
+        },
+        "fieldsAndOptionValuesUnchanged": true,
+        "engineUnchanged": true,
+        "historicalClinicalAlarmTextRetainedUnapproved": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed",
+        "fullMethodConformance": false
+      }
+    },
+    "limits": "Rastreamento de sintomas depressivos após o parto. A validação de Pelotas aplicou o questionário três meses após o nascimento e encontrou corte ≥10 para rastreamento. Esse contexto não define uma janela universal e não valida automaticamente uso em outras populações ou novas traduções.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.847Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "PDF integral não foi carregado diretamente; apenas resumo primário indexado foi lido adicionalmente.",
+        "Não houve auditoria completa das inversões dos itens ou do protocolo local de risco suicida."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+    "bytes": 6957,
+    "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "1e5626773031fa8e19cbce225d94514516f0d44dc0e6ebff475025e93b5f640a",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "93e4b40faf95e7a80cad686b5b316b48be7039dcd8259deaf0a1755597547a12",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "93e4b40faf95e7a80cad686b5b316b48be7039dcd8259deaf0a1755597547a12",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
