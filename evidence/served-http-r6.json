@@ -1,0 +1,1154 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "escala-de-edimburgo-epds",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/escala-de-edimburgo-epds/calculator.js",
+    "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24",
+    "bytes": 6957
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 5,
+    "replayed": 5,
+    "passed": 5,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "escala-de-edimburgo-epds",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Todas as respostas de menor pontuação: 0 pontos",
+      "originalInput": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "0"
+      },
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 0,
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "0",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 0,
+          "item10": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "0",
+            "q2": "0",
+            "q3": "0",
+            "q4": "0",
+            "q5": "0",
+            "q6": "0",
+            "q7": "0",
+            "q8": "0",
+            "q9": "0",
+            "q10": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+          "startedAt": "2026-10-05T17:37:03.027Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-edimburgo-epds",
+              "main": [
+                "0",
+                "de 30"
+              ],
+              "label": "EPDS",
+              "raw": {
+                "score": 0,
+                "item10": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "58b44a1dab921c3ef47b68ee2a9d44630825ce967feaeb88a995f8c2ef2fb1be",
+          "bytes": 146,
+          "elapsedMs": 5.46119999999064
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "startedAt": "2026-10-05T17:37:03.027Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-edimburgo-epds",
+            "main": [
+              "0",
+              "de 30"
+            ],
+            "label": "EPDS",
+            "raw": {
+              "score": 0,
+              "item10": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "58b44a1dab921c3ef47b68ee2a9d44630825ce967feaeb88a995f8c2ef2fb1be",
+        "bytes": 146,
+        "elapsedMs": 5.46119999999064
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item10",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "0",
+            "obtained": "0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 30",
+            "obtained": "de 30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-edimburgo-epds",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+      "originalInput": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 9,
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "9",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 9,
+          "item10": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "1",
+            "q2": "1",
+            "q3": "1",
+            "q4": "1",
+            "q5": "1",
+            "q6": "1",
+            "q7": "1",
+            "q8": "1",
+            "q9": "1",
+            "q10": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+          "startedAt": "2026-10-05T17:37:03.338Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-edimburgo-epds",
+              "main": [
+                "9",
+                "de 30"
+              ],
+              "label": "EPDS",
+              "raw": {
+                "score": 9,
+                "item10": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "eeaac7e995961e930893f0eca69a6ef45b0dd70a2f174adff3429cfd4c396c84",
+          "bytes": 146,
+          "elapsedMs": 4.411999999996624
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "startedAt": "2026-10-05T17:37:03.338Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-edimburgo-epds",
+            "main": [
+              "9",
+              "de 30"
+            ],
+            "label": "EPDS",
+            "raw": {
+              "score": 9,
+              "item10": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "eeaac7e995961e930893f0eca69a6ef45b0dd70a2f174adff3429cfd4c396c84",
+        "bytes": 146,
+        "elapsedMs": 4.411999999996624
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 9,
+            "obtained": 9,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 9,
+            "obtained": 9,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item10",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "9",
+            "obtained": "9",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 30",
+            "obtained": "de 30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-edimburgo-epds",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+      "originalInput": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "2",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "2",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 10,
+        "level": "mid",
+        "verdict": "positivo"
+      },
+      "recordedResult": {
+        "main": [
+          "10",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 10,
+          "item10": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "1",
+            "q2": "1",
+            "q3": "2",
+            "q4": "1",
+            "q5": "1",
+            "q6": "1",
+            "q7": "1",
+            "q8": "1",
+            "q9": "1",
+            "q10": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+          "startedAt": "2026-10-05T17:37:03.650Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-edimburgo-epds",
+              "main": [
+                "10",
+                "de 30"
+              ],
+              "label": "EPDS",
+              "raw": {
+                "score": 10,
+                "item10": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "621968a78bf7f49c36bdfff860f76f8b350821359379f8aca8c3afa0b5479ffe",
+          "bytes": 148,
+          "elapsedMs": 2.409800000008545
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "startedAt": "2026-10-05T17:37:03.650Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-edimburgo-epds",
+            "main": [
+              "10",
+              "de 30"
+            ],
+            "label": "EPDS",
+            "raw": {
+              "score": 10,
+              "item10": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "621968a78bf7f49c36bdfff860f76f8b350821359379f8aca8c3afa0b5479ffe",
+        "bytes": 148,
+        "elapsedMs": 2.409800000008545
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 10,
+            "obtained": 10,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item10",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "10",
+            "obtained": "10",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 30",
+            "obtained": "de 30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-edimburgo-epds",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Soma de 16 pontos sem item 10: provável depressão",
+      "originalInput": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "2",
+        "q6": "2",
+        "q7": "2",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "2",
+        "q6": "2",
+        "q7": "2",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 16,
+        "level": "high",
+        "verdict": "Provável depressão"
+      },
+      "recordedResult": {
+        "main": [
+          "16",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 16,
+          "item10": 0
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "2",
+            "q2": "2",
+            "q3": "2",
+            "q4": "2",
+            "q5": "2",
+            "q6": "2",
+            "q7": "2",
+            "q8": "1",
+            "q9": "1",
+            "q10": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+          "startedAt": "2026-10-05T17:37:03.962Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-edimburgo-epds",
+              "main": [
+                "16",
+                "de 30"
+              ],
+              "label": "EPDS",
+              "raw": {
+                "score": 16,
+                "item10": 0
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "d162f986e3f2201f144c904435592b747066527eb4814add8ad84a2732dd77a0",
+          "bytes": 148,
+          "elapsedMs": 4.142099999997299
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "startedAt": "2026-10-05T17:37:03.962Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-edimburgo-epds",
+            "main": [
+              "16",
+              "de 30"
+            ],
+            "label": "EPDS",
+            "raw": {
+              "score": 16,
+              "item10": 0
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "d162f986e3f2201f144c904435592b747066527eb4814add8ad84a2732dd77a0",
+        "bytes": 148,
+        "elapsedMs": 4.142099999997299
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 16,
+            "obtained": 16,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item10",
+            "expected": 0,
+            "obtained": 0,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "16",
+            "obtained": "16",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 30",
+            "obtained": "de 30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-edimburgo-epds",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+      "originalInput": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "1"
+      },
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "score": 1,
+        "level": "high",
+        "verdict": "item 10"
+      },
+      "recordedResult": {
+        "main": [
+          "1",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 1,
+          "item10": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "q1": "0",
+            "q2": "0",
+            "q3": "0",
+            "q4": "0",
+            "q5": "0",
+            "q6": "0",
+            "q7": "0",
+            "q8": "0",
+            "q9": "0",
+            "q10": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+          "startedAt": "2026-10-05T17:37:04.262Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-edimburgo-epds",
+              "main": [
+                "1",
+                "de 30"
+              ],
+              "label": "EPDS",
+              "raw": {
+                "score": 1,
+                "item10": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "0811c6be9580fc06543cc1d299205ccf2d82291b3b563d9304b31040da0c0038",
+          "bytes": 146,
+          "elapsedMs": 2.4645999999920605
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-edimburgo-epds/calculate",
+        "startedAt": "2026-10-05T17:37:04.262Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-edimburgo-epds",
+            "main": [
+              "1",
+              "de 30"
+            ],
+            "label": "EPDS",
+            "raw": {
+              "score": 1,
+              "item10": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "0811c6be9580fc06543cc1d299205ccf2d82291b3b563d9304b31040da0c0038",
+        "bytes": 146,
+        "elapsedMs": 2.4645999999920605
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.score",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.item10",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "1",
+            "obtained": "1",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 30",
+            "obtained": "de 30",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
