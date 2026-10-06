@@ -145,3 +145,34 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Screening negativo (meno di 10 punti)
+
+
+### 2
+
+Screening negativo (meno di 10 punti)
+
+
+### 3
+
+Screening positivo (≥ 10 punti): valutare la depressione
+
+
+### 4
+
+Depressione probabile (≥ 13 punti): valutazione clinica per la diagnosi
+
+
+### 5
+
+Pensieri di autolesionismo (item 10 positivo): valutazione immediata del rischio di suicidio · Screening negativo (meno di 10 punti)
+
+Non lasciare sola la paziente se vi è un piano o un’intenzione; attivare la rete di salute mentale. CVV: chiamare il 188 (24 ore, gratuito). In emergenza, SAMU 192.
+

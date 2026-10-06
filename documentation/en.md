@@ -145,3 +145,34 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Negative screening (less than 10 points)
+
+
+### 2
+
+Negative screening (less than 10 points)
+
+
+### 3
+
+Positive screening (≥ 10 points): assess depression
+
+
+### 4
+
+Probable depression (≥ 13 points): clinical assessment for diagnosis
+
+
+### 5
+
+Self-harm thoughts (item 10 positive): immediate suicide risk assessment · Negative screening (less than 10 points)
+
+Do not leave the patient alone if there is a plan or intent; activate the mental health network. CVV: call 188 (24 hours, free). In an emergency, SAMU 192.
+

@@ -1,0 +1,311 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "escala-de-edimburgo-epds",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "7d167354bef8f10bca87d1e53b162fdd3f84a3d4",
+    "oldEngineSha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24",
+    "currentEngineSha256": "9a757d2228d1e70911b3f50fa12e45037c34e678857d3008261ee31baa464922"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Todas as respostas de menor pontuação: 0 pontos",
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-edimburgo-epds",
+        "main": [
+          "0",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 0,
+          "item10": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "level": "low",
+        "verdict": "Rastreamento negativo (menos de 10 pontos)",
+        "note": "",
+        "raw": {
+          "score": 0,
+          "item10": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-edimburgo-epds",
+        "main": [
+          "9",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 9,
+          "item10": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 9,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "9",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "level": "low",
+        "verdict": "Rastreamento negativo (menos de 10 pontos)",
+        "note": "",
+        "raw": {
+          "score": 9,
+          "item10": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "2",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1",
+        "q7": "1",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-edimburgo-epds",
+        "main": [
+          "10",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 10,
+          "item10": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 10,
+        "level": "mid",
+        "verdict": "positivo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "level": "mid",
+        "verdict": "Rastreamento positivo (≥ 10 pontos): avaliar depressão",
+        "note": "",
+        "raw": {
+          "score": 10,
+          "item10": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Soma de 16 pontos sem item 10: provável depressão",
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "2",
+        "q6": "2",
+        "q7": "2",
+        "q8": "1",
+        "q9": "1",
+        "q10": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-edimburgo-epds",
+        "main": [
+          "16",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 16,
+          "item10": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 16,
+        "level": "high",
+        "verdict": "Provável depressão"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "16",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "level": "high",
+        "verdict": "Provável depressão (≥ 13 pontos): avaliação clínica para diagnóstico",
+        "note": "",
+        "raw": {
+          "score": 16,
+          "item10": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+      "input": {
+        "q1": "0",
+        "q2": "0",
+        "q3": "0",
+        "q4": "0",
+        "q5": "0",
+        "q6": "0",
+        "q7": "0",
+        "q8": "0",
+        "q9": "0",
+        "q10": "1"
+      },
+      "publicOutput": {
+        "id": "escala-de-edimburgo-epds",
+        "main": [
+          "1",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "raw": {
+          "score": 1,
+          "item10": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 1,
+        "level": "high",
+        "verdict": "item 10"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1",
+          "de 30"
+        ],
+        "label": "EPDS",
+        "level": "high",
+        "verdict": "Pensamentos de autoagressão (item 10 positivo): avaliação imediata do risco de suicídio · Rastreamento negativo (menos de 10 pontos)",
+        "note": "Não deixe a paciente sozinha se houver plano ou intenção; acione a rede de saúde mental. CVV: ligue 188 (24 horas, gratuito). Em emergência, SAMU 192.",
+        "raw": {
+          "score": 1,
+          "item10": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

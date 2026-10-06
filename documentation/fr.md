@@ -145,3 +145,34 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Dépistage négatif (moins de 10 points)
+
+
+### 2
+
+Dépistage négatif (moins de 10 points)
+
+
+### 3
+
+Dépistage positif (≥ 10 points) : évaluer une dépression
+
+
+### 4
+
+Dépression probable (≥ 13 points) : évaluation clinique pour le diagnostic
+
+
+### 5
+
+Idées d’automutilation (item 10 positif) : évaluation immédiate du risque suicidaire · Dépistage négatif (moins de 10 points)
+
+Ne laissez pas la patiente seule en cas de plan ou d’intention ; activez le réseau de santé mentale. CVV : appelez le 188 (24 heures, gratuit). En cas d’urgence, SAMU 192.
+

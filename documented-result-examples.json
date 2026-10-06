@@ -1,0 +1,677 @@
+{
+  "id": "escala-de-edimburgo-epds",
+  "implementationVersion": "escala-de-edimburgo-epds@native-2026-10-05+9a757d2228d1",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo (menos de 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo (menos de 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento positivo (≥ 10 pontos): avaliar depressão",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Provável depressão (≥ 13 pontos): avaliação clínica para diagnóstico",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Pensamentos de autoagressão (item 10 positivo): avaliação imediata do risco de suicídio · Rastreamento negativo (menos de 10 pontos)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Não deixe a paciente sozinha se houver plano ou intenção; acione a rede de saúde mental. CVV: ligue 188 (24 horas, gratuito). Em emergência, SAMU 192.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening (less than 10 points)",
+            "locale": "en",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening (less than 10 points)",
+            "locale": "en",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positive screening (≥ 10 points): assess depression",
+            "locale": "en",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Probable depression (≥ 13 points): clinical assessment for diagnosis",
+            "locale": "en",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Self-harm thoughts (item 10 positive): immediate suicide risk assessment · Negative screening (less than 10 points)",
+            "locale": "en",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "Do not leave the patient alone if there is a plan or intent; activate the mental health network. CVV: call 188 (24 hours, free). In an emergency, SAMU 192.",
+            "locale": "en",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado negativo (menos de 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado negativo (menos de 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Cribado positivo (≥ 10 puntos): evaluar depresión",
+            "locale": "es",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Depresión probable (≥ 13 puntos): evaluación clínica para diagnóstico",
+            "locale": "es",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Pensamientos de autolesión (ítem 10 positivo): evaluación inmediata del riesgo de suicidio · Cribado negativo (menos de 10 puntos)",
+            "locale": "es",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "No deje a la paciente sola si existe un plan o intención; active la red de salud mental. CVV: llame al 188 (24 horas, gratuito). En emergencia, SAMU 192.",
+            "locale": "es",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif (moins de 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif (moins de 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage positif (≥ 10 points) : évaluer une dépression",
+            "locale": "fr",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépression probable (≥ 13 points) : évaluation clinique pour le diagnostic",
+            "locale": "fr",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Idées d’automutilation (item 10 positif) : évaluation immédiate du risque suicidaire · Dépistage négatif (moins de 10 points)",
+            "locale": "fr",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "Ne laissez pas la patiente seule en cas de plan ou d’intention ; activez le réseau de santé mentale. CVV : appelez le 188 (24 heures, gratuit). En cas d’urgence, SAMU 192.",
+            "locale": "fr",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening (weniger als 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening (weniger als 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positives Screening (≥ 10 Punkte): Depression beurteilen",
+            "locale": "de",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Wahrscheinliche Depression (≥ 13 Punkte): klinische Beurteilung zur Diagnose",
+            "locale": "de",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Gedanken an Selbstverletzung (Item 10 positiv): sofortige Suizidrisikobewertung · Negatives Screening (weniger als 10 Punkte)",
+            "locale": "de",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "Lassen Sie die Patientin nicht allein, wenn ein Plan oder eine Absicht besteht; aktivieren Sie das psychiatrische Netzwerk. CVV: rufen Sie 188 an (24 Stunden, kostenlos). Im Notfall SAMU 192.",
+            "locale": "de",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo (meno di 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo (meno di 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening positivo (≥ 10 punti): valutare la depressione",
+            "locale": "it",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Depressione probabile (≥ 13 punti): valutazione clinica per la diagnosi",
+            "locale": "it",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Pensieri di autolesionismo (item 10 positivo): valutazione immediata del rischio di suicidio · Screening negativo (meno di 10 punti)",
+            "locale": "it",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "Non lasciare sola la paziente se vi è un piano o un’intenzione; attivare la rete di salute mentale. CVV: chiamare il 188 (24 ore, gratuito). In emergenza, SAMU 192.",
+            "locale": "it",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي (أقل من 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي (أقل من 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي إيجابي (≥ 10 نقاط): قيّم الاكتئاب",
+            "locale": "ar",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "اكتئاب محتمل (≥ 13 نقطة): تقييم سريري للتشخيص",
+            "locale": "ar",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "أفكار بإيذاء النفس (البند 10 إيجابي): تقييم فوري لخطر الانتحار · تحرّي سلبي (أقل من 10 نقاط)",
+            "locale": "ar",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "لا تترك المريضة وحدها إذا وُجدت خطة أو نية؛ فعّل شبكة الصحة النفسية. CVV: اتصل على 188 (24 ساعة، مجانًا). في الطوارئ، SAMU 192.",
+            "locale": "ar",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性（少于 10 分）",
+            "locale": "zh",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性（少于 10 分）",
+            "locale": "zh",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阳性（≥ 10 分）：评估抑郁",
+            "locale": "zh",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "可能抑郁（≥ 13 分）：进行临床评估以明确诊断",
+            "locale": "zh",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "自伤想法（第 10 项阳性）：立即进行自杀风险评估 · 筛查阴性（少于 10 分）",
+            "locale": "zh",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "如果有计划或意图，请不要让患者独处；启动精神卫生网络。CVV：拨打 188（24 小时，免费）。紧急情况下，拨打 SAMU 192。",
+            "locale": "zh",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性（10点未満）",
+            "locale": "ja",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性（10点未満）",
+            "locale": "ja",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陽性（≥ 10点）：うつ病を評価する",
+            "locale": "ja",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "うつ病の可能性（≥ 13点）：診断のための臨床評価",
+            "locale": "ja",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "自傷の考え（項目10陽性）：自殺リスクの即時評価 · スクリーニング陰性（10点未満）",
+            "locale": "ja",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "計画または意図がある場合は、患者を一人にしないでください。メンタルヘルス支援ネットワークを起動してください。CVV：188に電話してください（24時間、無料）。緊急時はSAMU 192。",
+            "locale": "ja",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Todas as respostas de menor pontuação: 0 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "नकारात्मक स्क्रीनिंग (10 से कम अंक)",
+            "locale": "hi",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 9 com 1 ponto e item 10 zero: 9 pontos (negativo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "नकारात्मक स्क्रीनिंग (10 से कम अंक)",
+            "locale": "hi",
+            "template": "documented-authored-f0d05392fcbd915b7ea0"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Soma de 10 pontos sem item 10: rastreamento positivo (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "सकारात्मक स्क्रीनिंग (≥ 10 अंक): अवसाद का मूल्यांकन करें",
+            "locale": "hi",
+            "template": "documented-authored-11f971a7b9079335b164"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Soma de 16 pontos sem item 10: provável depressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "संभावित अवसाद (≥ 13 अंक): निदान के लिए नैदानिक मूल्यांकन",
+            "locale": "hi",
+            "template": "documented-authored-47ee185c5baac07666f2"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Item 10 com 1 ponto e o resto zero: total 1, mas alerta de autoagressão",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्व-क्षति के विचार (आइटम 10 सकारात्मक): आत्महत्या जोखिम का तत्काल मूल्यांकन · नकारात्मक स्क्रीनिंग (10 से कम अंक)",
+            "locale": "hi",
+            "template": "documented-authored-13e9f678c75eabd82540"
+          },
+          "note": {
+            "text": "यदि योजना या इरादा हो तो रोगी को अकेला न छोड़ें; मानसिक स्वास्थ्य नेटवर्क सक्रिय करें। CVV: 188 पर कॉल करें (24 घंटे, निःशुल्क)। आपात स्थिति में, SAMU 192.",
+            "locale": "hi",
+            "template": "documented-authored-082e6b37fc8e713f3407"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

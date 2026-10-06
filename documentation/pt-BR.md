@@ -145,3 +145,34 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Rastreamento negativo (menos de 10 pontos)
+
+
+### 2
+
+Rastreamento negativo (menos de 10 pontos)
+
+
+### 3
+
+Rastreamento positivo (≥ 10 pontos): avaliar depressão
+
+
+### 4
+
+Provável depressão (≥ 13 pontos): avaliação clínica para diagnóstico
+
+
+### 5
+
+Pensamentos de autoagressão (item 10 positivo): avaliação imediata do risco de suicídio · Rastreamento negativo (menos de 10 pontos)
+
+Não deixe a paciente sozinha se houver plano ou intenção; acione a rede de saúde mental. CVV: ligue 188 (24 horas, gratuito). Em emergência, SAMU 192.
+

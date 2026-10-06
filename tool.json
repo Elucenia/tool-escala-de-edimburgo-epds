@@ -401,7 +401,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "EPDS/Cox 1987:10 itens,7 dias; cutoff PTPelotas 2007≥10 vsoriginal≥13; item 10 alarme",
-    "implementationVersion": "escala-de-edimburgo-epds@native-2026-10-03+6ea58aa125f5",
+    "implementationVersion": "escala-de-edimburgo-epds@native-2026-10-05+9a757d2228d1",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/3651732/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -723,7 +723,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24",
+      "implementationHash": "9a757d2228d1e70911b3f50fa12e45037c34e678857d3008261ee31baa464922",
       "inputContractHashHistory": [
         {
           "hash": "c95c0c6c74df6983459dfd9647094760c2b1bfb03ea8343e6a92e77fb0e75d3c",
@@ -770,7 +770,35 @@
         "professionalLanguageApproval": "not-performed",
         "rightsApproval": "not-performed",
         "fullMethodConformance": false
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "escala-de-edimburgo-epds@native-2026-10-03+6ea58aa125f5",
+          "previousImplementationHash": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24",
+          "implementationHash": "9a757d2228d1e70911b3f50fa12e45037c34e678857d3008261ee31baa464922",
+          "scientificBodySha256": "ad11f8f6263a45fd54c996613346de60c7190fab0f9a329c3c4ff856a8ad85ca",
+          "metadataContractHash": "60d74e53090b275e59aceed1878abc0669e8393dba62da8438cb6f252ebd29cd",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Rastreamento de sintomas depressivos após o parto. A validação de Pelotas aplicou o questionário três meses após o nascimento e encontrou corte ≥10 para rastreamento. Esse contexto não define uma janela universal e não valida automaticamente uso em outras populações ou novas traduções.",
     "sourceLimitEvidence": {
@@ -790,20 +818,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/escala-de-edimburgo-epds/calculator.js",
-    "bytes": 6957,
-    "sha256": "6ea58aa125f5ada1b67189b02e380d9acca755735621875bd10b558484cc0d24"
+    "bytes": 7162,
+    "sha256": "9a757d2228d1e70911b3f50fa12e45037c34e678857d3008261ee31baa464922"
   },
-  "sourceToolSha256": "1e5626773031fa8e19cbce225d94514516f0d44dc0e6ebff475025e93b5f640a",
+  "sourceToolSha256": "4dc9108341855e94b8d9b0623d9a41da27c2975fb42773fc7ffca53ce735cc67",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "93e4b40faf95e7a80cad686b5b316b48be7039dcd8259deaf0a1755597547a12",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "93e4b40faf95e7a80cad686b5b316b48be7039dcd8259deaf0a1755597547a12",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

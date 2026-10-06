@@ -145,3 +145,34 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Negatives Screening (weniger als 10 Punkte)
+
+
+### 2
+
+Negatives Screening (weniger als 10 Punkte)
+
+
+### 3
+
+Positives Screening (≥ 10 Punkte): Depression beurteilen
+
+
+### 4
+
+Wahrscheinliche Depression (≥ 13 Punkte): klinische Beurteilung zur Diagnose
+
+
+### 5
+
+Gedanken an Selbstverletzung (Item 10 positiv): sofortige Suizidrisikobewertung · Negatives Screening (weniger als 10 Punkte)
+
+Lassen Sie die Patientin nicht allein, wenn ein Plan oder eine Absicht besteht; aktivieren Sie das psychiatrische Netzwerk. CVV: rufen Sie 188 an (24 Stunden, kostenlos). Im Notfall SAMU 192.
+

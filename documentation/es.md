@@ -145,3 +145,34 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Cribado negativo (menos de 10 puntos)
+
+
+### 2
+
+Cribado negativo (menos de 10 puntos)
+
+
+### 3
+
+Cribado positivo (≥ 10 puntos): evaluar depresión
+
+
+### 4
+
+Depresión probable (≥ 13 puntos): evaluación clínica para diagnóstico
+
+
+### 5
+
+Pensamientos de autolesión (ítem 10 positivo): evaluación inmediata del riesgo de suicidio · Cribado negativo (menos de 10 puntos)
+
+No deje a la paciente sola si existe un plan o intención; active la red de salud mental. CVV: llame al 188 (24 horas, gratuito). En emergencia, SAMU 192.
+
